@@ -1,0 +1,38 @@
+/*GENERAL*/
+ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+ body {
+    font-family: 'Roboto', sans-serif;
+ }
+
+ h3 {
+     font-size: 24px;
+ }
+
+
+
+/*HEADER*/
+
+header {
+
+    background: #EAC926;
+}
+
+
+/*MAIN*/
+
+.precios {
+            font-size: 18px;
+}
+
+.descuentos {
+            font-size: 16px;
+}
+
+.descripciones {
+                font-size: 16px;
+}
