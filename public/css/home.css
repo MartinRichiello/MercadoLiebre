@@ -49,13 +49,25 @@ header {
 /*MAIN*/
 
 article {
-        text-align: center;
+        text-align: left;
         margin-bottom: 10px;
-        
+}
+
+.main-article {
+
+        border: solid 1px black;
+        padding: 15px 15px 15px 15px;
+
+}
+
+article div i{
+                color: #39b54a;
+
 }
 
 .precios {
             font-size: 18px;
+            color: #39b54a;
 }
 
 .descuentos {
