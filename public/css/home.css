@@ -21,6 +21,10 @@
      font-size: 18px;
  }
 
+ main {
+         width: 90%;
+         margin: 0 auto;
+ }
 /*HEADER*/
 
 header {
@@ -44,6 +48,12 @@ header {
  }
 /*MAIN*/
 
+article {
+        text-align: center;
+        margin-bottom: 10px;
+        
+}
+
 .precios {
             font-size: 18px;
 }
@@ -56,13 +66,18 @@ header {
                 font-size: 16px;
 }
 
+
 /*FOOTER*/
 
 
-
-article {
-        text-align: center;
+footer {
+        width: 70%;
+        margin: 0 auto;
 }
+
+
+
+
 
 .tarjeta {
         text-align: center;
