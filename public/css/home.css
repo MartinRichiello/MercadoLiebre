@@ -25,6 +25,7 @@
  main {
          width: 90%;
          margin: 0 auto;
+         
  }
 /*HEADER*/
 
@@ -33,8 +34,12 @@ header {
     background-color: #EAC926;
 }
 
+header nav{
+        display: none;
+}
 .burger-menu {
     text-align: center;
+    display: block;
 }
 
  div.burger-menu i{
@@ -63,47 +68,60 @@ header {
 .section2 h3{
         text-align: center;
 }
+
+
+
+
+
  main article {
         margin: auto;
         text-align: left;
         margin-bottom: 10px;
         width: 300px;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
+        
 }
 
 
 
 .main-article {
-
+        display:flex;
         border-top: solid 1px #ebebeb;
         padding: 15px 15px 15px 15px;
         background-color: white;
+        position: relative;
+        flex-wrap: wrap;
         
         
 
 }
 
- main article div i{
-                color: #39b54a;
-                display: block;
-                font-size: 16px;
-                padding: 5px;
-                width: 30px;
-                height: 30px;
-                background-color: white;
-                border: solid 1px #39b54a;
-                border-radius: 50px;
+ main section article div i{
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+        color: #39b54a;
 
 }
 
 .precios {
             font-size: 18px;
+            flex-grow: 3;
             
 }
 
 .descuentos {
             font-size: 16px;
             color: #39b54a;
+            flex-grow: 7;
 }
 
 .descripciones {
@@ -111,6 +129,8 @@ header {
                 margin-top: 10px;
                 display: none;
 }
+
+
 
 
 /*FOOTER*/
@@ -185,9 +205,29 @@ div.seguridad i{
         .descripciones{
                 display: block;
         }
+        main article{
+                box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+        header nav{
+                display: block;
+        }
+        .burger-menu {
+                display: none;
+            }
+        .precios {
+                font-size: 18px;
+                width: 50%;
+                
+                 }
+    
+        .descuentos {
+                font-size: 16px;
+                color: #39b54a;
+                width: 50%;
+                 }
 }
 /*desktop*/
 @media (min-width: 769px){
 
-        
+       
 }
