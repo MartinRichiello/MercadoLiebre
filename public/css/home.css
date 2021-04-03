@@ -34,6 +34,15 @@ header {
     background-color: #EAC926;
 }
 
+.logo{
+        width: 50%;
+        
+}
+
+.busqueda{
+        width: 50%;
+}
+
 header nav{
         display: none;
 }
