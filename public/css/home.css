@@ -34,13 +34,20 @@ header {
     background-color: #EAC926;
 }
 
+.contenedor-logo{
+
+        flex-direction: row;
+        display:flex;
+        align-items: center;
+}
 .logo{
         width: 50%;
-        
 }
 
 .busqueda{
         width: 50%;
+        margin: auto;
+        text-align: center;
 }
 
 header nav{
