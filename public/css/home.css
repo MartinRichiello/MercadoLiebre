@@ -254,7 +254,36 @@ div.seguridad i{
         height: 20px;
         margin-left: 20px;
         margin-right: 20px;
+        background-color: #39b54a;
+        border: black 1px solid;
+        border-radius: 5px;
 }
+
+/*LOGIN*/
+
+.login{
+        text-align: center;
+}
+
+.login input{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 30%;
+}
+
+.login button{
+
+        width: 100px;
+        height: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        background-color: #39b54a;
+        border: black 1px solid;
+        border-radius: 5px;
+}
+
+
 
 /*VIEWPORT*/
 
