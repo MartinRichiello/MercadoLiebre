@@ -220,6 +220,7 @@ div.seguridad i{
 
         .descripciones{
                 display: block;
+                padding-right: 30px;
         }
         main article{
                 box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -232,14 +233,14 @@ div.seguridad i{
             }
         .precios {
                 font-size: 18px;
-                width: 50%;
+                flex-grow: 3;
                 
                  }
     
         .descuentos {
                 font-size: 16px;
                 color: #39b54a;
-                width: 50%;
+                flex-grow:7;
                  }
 }
 /*desktop*/
