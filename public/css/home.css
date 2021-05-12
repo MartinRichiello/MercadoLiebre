@@ -212,6 +212,49 @@ div.seguridad i{
         margin-top: 30px;
 }
 
+/*REGISTER*/
+.register{
+        text-align: center;
+
+}
+.register input{
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 30%;
+        
+}
+
+.register .perfil{
+
+        margin: auto;
+        text-align: center;
+        width: 40%;
+
+}
+
+.register .checkbox input{
+
+        width: 20px;
+        margin-top: 20px;
+        
+        
+}
+
+.checkbox{
+
+        margin: auto;
+        width: 40%;
+        text-align: center;
+}
+
+.register button{
+
+        width: 100px;
+        height: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+}
 
 /*VIEWPORT*/
 
