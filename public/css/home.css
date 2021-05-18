@@ -12,6 +12,8 @@
 
  h3 {
      font-size: 24px;
+     margin-top: 20px ;
+     margin-bottom: 20px;
  }
 
  p {
@@ -146,6 +148,9 @@ header nav{
                 display: none;
 }
 
+main section div.products article{
+        margin-bottom: 30px;
+}
 
 
 
@@ -314,9 +319,30 @@ div.seguridad i{
                 color: #39b54a;
                 flex-grow:7;
                  }
+
+        main section div.products{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: flex-start;
+        }
+        main section div.products article{
+                width: 44%;
+        }
+
 }
 /*desktop*/
 @media (min-width: 769px){
 
-       
+        main section div.products{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: flex-start;
+        }
+        main section div.products article{
+                width: 22%;
+        }
 }
