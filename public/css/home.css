@@ -61,6 +61,10 @@ header nav{
     display: block;
 }
 
+.texto1{
+        margin-top: 20px;
+        
+}
  div.burger-menu i{
     background-color: #0044AA;
     border-radius: 5px;
@@ -345,16 +349,23 @@ div.seguridad i{
         }
         .contenedor-logo{
                 display: inline-flex;
+                width: 100%;
         }
         .contenedor-logo img{
-                width: 33%;
+                width: 30%;
         }
         .busqueda{
-                width: 33%;
+                width: 30%;
+        }
+        .texto1{
+                margin: 0;
+                width: 30%;
         }
         
         header nav{
                 display: flex;
+                padding-top: 40px;
+                padding-bottom: 20px;
         }
         .nav1{
                 flex-direction: row;
@@ -362,6 +373,7 @@ div.seguridad i{
                 width: 50%;
                 justify-content: space-between;
                 list-style: none;
+                margin-right: 20px;
         }
         .nav2{
                 flex-direction: row;
@@ -369,8 +381,17 @@ div.seguridad i{
                 width: 50%;
                 justify-content: space-between;
                 list-style: none;
+                margin-left: 20px;
         }
-
+        .nav1 li a{
+                text-decoration: none;
+                color: #000;
+        }
+        .nav2 li a{
+                text-decoration: none;
+                color: #000;
+        }
+        
 
 }
 /*desktop*/
