@@ -306,9 +306,7 @@ div.seguridad i{
         main article{
                 box-shadow: 0px 0px 10px rgb(100, 100, 100);
         }
-        header nav{
-                display: block;
-        }
+        
         .burger-menu {
                 display: none;
             }
@@ -334,9 +332,7 @@ div.seguridad i{
         main section div.products article{
                 width: 44%;
         }
-        nav{
-                flex-direction: row;
-        }
+       
         
         
         .nav1{
@@ -357,7 +353,23 @@ div.seguridad i{
                 width: 33%;
         }
         
-
+        header nav{
+                display: flex;
+        }
+        .nav1{
+                flex-direction: row;
+                display: flex;
+                width: 50%;
+                justify-content: space-between;
+                list-style: none;
+        }
+        .nav2{
+                flex-direction: row;
+                display: flex;
+                width: 50%;
+                justify-content: space-between;
+                list-style: none;
+        }
 
 
 }
