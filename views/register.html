@@ -46,15 +46,15 @@
         <form action="#"  method="POST" class="register">
 
            
-            <input type="text" name="nombre y apellido" placeholder="Nombre y apellido">
+            <input type="text" name="nombre y apellido" placeholder="Nombre y apellido" required>
             <br>
-            <input type="text" name="nombre de usuario" placeholder="Nombre de usuario">
+            <input type="text" name="nombre de usuario" placeholder="Nombre de usuario" required>
             <br>
             <label for="fecha de nacimiento">Fecha de nacimiento:</label>
             <br>
-            <input type="date" name="fecha de nacimiento" value="2020-9-1" min="1920-1-1" max="2021-1-1">
+            <input type="date" name="fecha de nacimiento" value="2020-9-1" min="1920-1-1" max="2021-1-1" required>
             <br>
-            <input type="text" name="domicilio" placeholder="Domicilio">
+            <input type="text" name="domicilio" placeholder="Domicilio" required>
             <br>
             <div class="perfil">
                 <label for="perfil de usuario">Perfil del usuario:</label>
@@ -86,11 +86,11 @@
             <br>
             <label for="foto"> Elegi una foto de perfil:</label>
             <br>
-            <input type="file" name="foto" accept=".jpg">
+            <input type="file" name="foto" accept=".jpg" required>
             <br>
-            <input type="password" name="contraseña" placeholder="Contraseña">
+            <input type="password" name="contraseña" placeholder="Contraseña" required>
             <br>
-            <input type="password" name="confirmar contraseña" placeholder="Confirmacion de contraseña">
+            <input type="password" name="confirmar contraseña" placeholder="Confirmacion de contraseña" required>
             <br>
             <br>
             <button type="submit"><a href="/">Enviar</a></button>
