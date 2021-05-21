@@ -41,6 +41,7 @@ header {
         flex-direction: row;
         display:flex;
         align-items: center;
+        flex-wrap: wrap;
 }
 .logo{
         width: 50%;
@@ -70,6 +71,9 @@ header nav{
     padding: 10px;
     width: 40px;
  }
+
+
+
 /*MAIN*/
 
 .section1{
@@ -330,6 +334,31 @@ div.seguridad i{
         main section div.products article{
                 width: 44%;
         }
+        nav{
+                flex-direction: row;
+        }
+        
+        
+        .nav1{
+                width: 45%;
+                margin: 0%;
+        }
+        .nav2{
+                width: 45%;
+                margin: 0%;
+        }
+        .contenedor-logo{
+                display: inline-flex;
+        }
+        .contenedor-logo img{
+                width: 33%;
+        }
+        .busqueda{
+                width: 33%;
+        }
+        
+
+
 
 }
 /*desktop*/
