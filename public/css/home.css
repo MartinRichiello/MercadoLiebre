@@ -234,7 +234,7 @@ div.seguridad i{
 
         margin-top: 20px;
         margin-bottom: 20px;
-        width: 30%;
+        width: 200px;
         
 }
 
@@ -242,10 +242,15 @@ div.seguridad i{
 
         margin: auto;
         text-align: center;
-        width: 40%;
+        width: 300px;
 
 }
 
+.register .perfil input{
+
+        width: 40px;
+
+}
 .register .checkbox input{
 
         width: 20px;
@@ -272,6 +277,11 @@ div.seguridad i{
         border-radius: 5px;
 }
 
+.register button a{
+
+        text-decoration: none;
+        color: #000;
+}
 /*LOGIN*/
 
 .login{
@@ -296,7 +306,10 @@ div.seguridad i{
         border-radius: 5px;
 }
 
-
+.login button a{
+        text-decoration: none;
+        color: #000;
+}
 
 /*VIEWPORT*/
 
@@ -393,6 +406,15 @@ div.seguridad i{
         }
         
 
+}
+
+/*LOGIN*/
+.register input{
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 40%;
+        
 }
 /*desktop*/
 @media (min-width: 769px){
