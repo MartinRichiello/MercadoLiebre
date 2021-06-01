@@ -136,7 +136,13 @@ header nav{
         right: 20px;
         top: -15px;
         color: #39b54a;
+        transition: transform  1s;
 
+}
+
+main section article:hover div i {
+
+        transform: rotateZ(90deg);
 }
 
 .precios {
@@ -222,6 +228,9 @@ div.seguridad i{
         padding: 10px;
         width: 40px;
 }
+
+
+
 
 .copyright {
 
@@ -312,6 +321,7 @@ div.seguridad i{
         background-color: #39b54a;
         border: black 1px solid;
         border-radius: 5px;
+        transition-duration: 10s;
 }
 
 .login button:hover{
@@ -454,17 +464,25 @@ main form{
                 justify-content: space-between;
                 list-style: none;
                 margin-left: 20px;
-                
+
         }
         .nav1 li a{
                 text-decoration: none;
                 color: #000;
-                
+
         }
         .nav2 li a{
                 text-decoration: none;
                 color: #000;
-                
+
         }
 
+        footer .avisos-logos{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 30px;
+
+
+        }
 }
+
