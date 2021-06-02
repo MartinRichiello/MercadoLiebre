@@ -174,7 +174,11 @@ main section div.products article{
 /*FOOTER*/
 
 
-  footer article {
+footer{
+        margin-top: 20px;
+}
+
+footer article {
         width: 70%;
         margin: auto;
         text-align: center;
@@ -229,12 +233,20 @@ div.seguridad i{
         width: 40px;
 }
 
+footer .avisos-logos article i{
 
+        transition: 1s;
+}
 
+footer .avisos-logos article i:hover{
+        
+        color:#EAC926;
+}
 
 .copyright {
 
         margin-top: 30px;
+        margin-bottom: 10px;
 }
 
 /*REGISTER*/
