@@ -5,8 +5,8 @@ const app = express();
 app.use(express.static('public'));
 
 
-app.listen(4000, ()=>{
-    console.log('Servidor 4000 funcionando');
+app.listen( process.env.PORT || 3000, ()=>{
+    console.log('Servidor 3000 funcionando');
 });
 
 app.get('/', (req,res)=>{
