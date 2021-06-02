@@ -140,10 +140,7 @@ header nav{
 
 }
 
-main section article:hover div i {
 
-        transform: rotateZ(90deg);
-}
 
 .precios {
             font-size: 18px;
@@ -233,15 +230,7 @@ div.seguridad i{
         width: 40px;
 }
 
-footer .avisos-logos article i{
 
-        transition: 1s;
-}
-
-footer .avisos-logos article i:hover{
-        
-        color:#EAC926;
-}
 
 .copyright {
 
@@ -333,7 +322,7 @@ footer .avisos-logos article i:hover{
         background-color: #39b54a;
         border: black 1px solid;
         border-radius: 5px;
-        transition-duration: 10s;
+        transition-duration: 1s;
 }
 
 .login button:hover{
@@ -356,12 +345,18 @@ main form{
 /*tablets*/
 @media (min-width: 361px){
 
+       
         main section  article:hover .descripciones{
                 display: block;
                 padding-right: 30px;
         }
         main article:hover{
                 box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+
+        main section article:hover div i {
+
+                transform: rotateZ(-90deg);
         }
         
         
@@ -423,6 +418,8 @@ main form{
         main section div.products article{
                 width: 22%;
         }
+
+
 
         .burger-menu {
                 display: none;
@@ -495,6 +492,16 @@ main form{
                 margin-bottom: 30px;
 
 
+        }
+
+        footer .avisos-logos article i{
+
+                transition: 1s;
+        }
+        
+        footer .avisos-logos article i:hover{
+                
+                color:#EAC926;
         }
 }
 
